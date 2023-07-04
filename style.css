@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: black;
+  padding: 20px;
+}
+.row div {
+  padding: 20px;
+  background: rgb(236, 160, 97);
+  color: #fff;
+}
+.col-2 {
+  flex: 1 1 calc(20% - 20px);
+  text-align: center;
+}
+
+.col-3 {
+  flex: 1 1 calc(25% - 20px);
+  text-align: center;
+}
+.col-4 {
+  flex: 1 1 calc(33.3% - 20px);
+  text-align: center;
+}
+.col-6 {
+  flex: 1 1 calc(50% - 20px);
+  text-align: center;
+}
+
+.col-12 {
+  flex: 1 1 calc(100% - 20px);
+  text-align: center;
+}
+.row {
+  display: flex;
+  margin: 10px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
